@@ -1,21 +1,14 @@
 package app.view;
 
+import java.util.Scanner;
+
 public class propertyOwnerView {
-    public void create() {
+
+    Scanner sc = new Scanner(System.in);
+
+    public  void  createPropertyOwner(){
+        System.out.println("Ingrese ID del Propietario");
+        int id = sc.nextInt();
     }
 
-    public void selectAll() {
-    }
-
-
-    public void update() {
-    }
-
-
-    public void delete(int id) {
-    }
-
-
-    public void selectById(int id) {
-    }
 }
