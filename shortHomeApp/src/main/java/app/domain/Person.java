@@ -1,10 +1,12 @@
 package app.domain;
+import app.domain.enums.DocumentsTypeEnum;
+
 import java.sql.Date;
 
 public class Person {
     // INSERT THE ATTRIBUTES
     private Integer id;
-    private String docType;
+    private DocumentsTypeEnum docType;
     private String name;
     private String lastName;
     private String phone;
@@ -14,6 +16,18 @@ public class Person {
     private Date birthDay;
 
     //CONSTRUCTOR
+
+    public Person(Integer id, DocumentsTypeEnum docType, String name, String lastName, String phone, String email, String address, String password, Date birthDay) {
+        this.id = id;
+        this.docType = docType;
+        this.name = name;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.email = email;
+        this.address = address;
+        this.password = password;
+        this.birthDay = birthDay;
+    }
 
     public Person(){
     }
