@@ -3,7 +3,9 @@ package app.domain;
 
     public class Tenant extends Person {
 
-        private String fieldType;
+        private String maritalStatus;
+        private String profession;
+
 
 
         public String getFieldType() {

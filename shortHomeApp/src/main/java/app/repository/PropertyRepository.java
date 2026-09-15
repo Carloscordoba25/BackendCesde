@@ -1,6 +1,6 @@
-package app.service;
+package app.repository;
 
-public class propertyService {
+public class PropertyRepository {
     public void create(){
 
     }

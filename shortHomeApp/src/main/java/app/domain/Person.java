@@ -42,11 +42,11 @@ public class Person {
         this.id = id;
     }
 
-    public String getDocType() {
+    public DocumentsTypeEnum getDocType() {
         return docType;
     }
 
-    public void setDocType(String docType) {
+    public void setDocType(DocumentsTypeEnum docType) {
         this.docType = docType;
     }
 

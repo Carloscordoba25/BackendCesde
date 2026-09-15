@@ -1,6 +1,6 @@
 package app.service;
 
-public class AdminService {
+public class OfferServiceImpl {
     public void create() {
     }
 

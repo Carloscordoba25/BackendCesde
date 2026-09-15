@@ -1,6 +1,9 @@
-package app.service;
+package app.repository;
 
-public class tenantService {
+public class TenantRepository {
+    public void create() {
+    }
+
     public void selectAll() {
     }
 

@@ -9,7 +9,7 @@ public class PropertyOwner extends Person {
     private OwnerTypeEnum OwnerType;
 
 
-    public PropertyOwner(){
+    public PropertyOwner(int id, String name, String lastname, String phone, String mail, String adders, String password, java.util.Date birthday, String propertyType) {
         super();
     }
 
@@ -25,4 +25,21 @@ public class PropertyOwner extends Person {
     public void setOwnerType(OwnerTypeEnum ownerType) {
         OwnerType = ownerType;
     }
+
+    private static int id;
+
+    public static int getPropertyOwnerId() {
+        return id;
+    }
+
+    public static void setId(int id) {
+        PropertyOwner.id = id;
+    }
+
+    private static String name;
+
+    public static String getPropertyOwnerName(){
+        return name;
+    }
+
 }
